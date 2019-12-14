@@ -1,0 +1,13 @@
+{
+    "array": [
+        {
+            "string": "a b c d b a b d c b a"
+        },
+        {
+            "string": "a b c d b b d c b b c d a c"
+        }, 
+        { 
+            "string": "a"
+        }
+    ]
+}

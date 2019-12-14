@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array-subnet</title>
+    <style>
+        .array {
+            border: 1px solid black;
+            width: 120px;
+            height: 30px;
+            margin-left: 15px;
+            font-size: 25px;
+        }
+
+        .box {
+            width: 750px;
+            height: 50px;
+            border: 1px solid black;
+
+        }
+
+        .button {
+            width: 50px;
+            height: 20px;
+        }
+
+        .subnet {
+            width: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <table>
+
+
+            <tr>
+                <th>Array 1:<input id="box1" type="text" class="array"></th>
+                <th><button class="button" id="array1" type="button">Send</button></th>
+            </tr>
+
+            <tr>
+
+                <th>Array 2:<input id="box2" type="text" class="array"></th>
+                <th> <button class="button" id="array2" type="button">Send</button></th>
+            </tr>
+            <tr>
+                <th>
+                    Array 1: <input class="box" id="display1"></input>
+                </th>
+                <th> <button class="Sort" id="sort1" type="button">Sort Array 1</button> </th>
+            </tr>
+            <tr>
+                <th>
+                    Array 2: <input class="box" id="display2"></input>
+                </th>
+                <th> <button class="Sort" id="sort2" type="button">Sort Array 2</button> </th>
+            </tr>
+            <tr>
+                <th>
+                    Array 2 subnet Array 1:  <input class="subnet" id="isSubnet1">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Array 1 subnet Array 2:  <input class="subnet" id="isSubnet2">
+                </th>
+
+            </tr>
+            <tr>
+                <th>
+                    <input type="button" value="Check subnet" id="check">
+                </th>
+
+            </tr>
+        </table>
+    </form>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
