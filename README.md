@@ -1,5 +1,5 @@
 #Data-Structures
 # Data-Structures
-deneme deneme
-deneme deneme
-
+Various applications have been developed using tree structures, 
+data structures, regular expressions and linked list structures.
+for Data Structures lesson
